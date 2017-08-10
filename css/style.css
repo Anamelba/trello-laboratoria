@@ -1,0 +1,83 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body
+{
+	background-color: #348EC6;
+	padding: 25px 50px;
+}
+.contenedor
+{
+	border: 1px solid #900;
+	padding: 8px 10px;
+	width: 300px;
+}
+
+.span1
+{
+	border: 1px solid #900;
+	padding: 5px 5px;
+	display: block;
+	height: 100%;
+	width: 100%;
+	border-bottom: 1px solid #eee;
+    background-color: #1E6FBB;
+    color: white;
+    cursor:pointer; cursor: hand
+
+}
+.span1:nth-child(odd)
+{
+	/*background: rgba(244,244,244,0.5);*/
+	background-color: #1E6FBB;
+}
+.span1:hover
+{
+	/*background: rgba(244,244,244,0.5);*/
+	background-color: rgba(0,0,0,0.5);
+}
+
+.span2
+{
+	border: 1px solid #900;
+	padding: 5px 5px;
+	display: block;
+	height: 100%;
+	width: 100%;
+	border-bottom: 1px solid #eee;
+    background-color: #E0E9F2;
+    color: black;
+    /*contenteditable="true"*/
+    content: editable;
+}
+.btnSave
+{
+	border: none;
+  	background: #1BAF2C;
+  	color: #f2f2f2;
+  	padding: 10px;
+  	font-size: 50%x;
+  	border-radius: 5px;
+  	position: relative;
+  	box-sizing: border-box;
+  	padding: 10px 30px;
+  	margin: 1%;
+}
+.btnClose
+{
+	border: none;
+  	background: #E8F7F2;
+  	color: 8B9F98;
+  	padding: 10px;
+  	font-size: 20%x;
+  	border-radius: 5px;
+  	position: relative;
+  	box-sizing: border-box;
+  	padding: 10px 30px;
+  	margin: 1%;
+}
+.btnClose:hover
+{
+	background-color: rgba(0,0,0,0.5);
+}
